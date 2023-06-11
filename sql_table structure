@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `md5` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `md5`;      //create database
+
+CREATE TABLE `md5_hash` (
+  `password` varchar(32) NOT NULL,
+  `hash` varchar(33) NOT NULL
+)     //create table
